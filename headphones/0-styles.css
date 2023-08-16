@@ -145,7 +145,8 @@ header nav {
     display: none;
   }
   .logo {
-    width: 250px;
+    width: 220px;
+    margin: 0 auto;
   }
   #hero {
     margin-top: 10vh;
