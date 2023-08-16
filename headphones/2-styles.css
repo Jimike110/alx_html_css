@@ -42,7 +42,7 @@ body {
     width: 100%;
     height: 100vh;
 }
-header, #hero, main, footer {
+header, #hero, section:not(:first) *, footer * {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -74,9 +74,6 @@ button:hover {
     font-family: "Source Sans Pro";
     margin: 0;
     padding: 0;
-}
-h4 {
-    font-size: 1.8rem;
 }
 p {
     font-size: 1.5rem;
@@ -113,6 +110,10 @@ h1 {
 }
 h2 {
     font-size: clamp(1rem, 1rem + 3.5vw, 3.5rem);
+    margin-block: 2rem;
+}
+h4 {
+    font-size: clamp(1rem, 1rem + 2vw, 2rem);
 }
 #hero p {
     font-size: clamp(1.5rem, 1rem + 1vw, 2rem);
@@ -122,11 +123,8 @@ h2 {
     font-weight: lighter;
     font-size: 0.8rem;
 }
-h2 {
-    margin-block: 2rem;
-}
 .intro-text p {
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1rem + 1vw, 2rem);
 }
 .flex {
     display: flex;
@@ -142,4 +140,17 @@ h2 {
 
 .flex-item * {
     padding-block-end: 1rem;
+}
+
+.flex-item p {
+    font-size: clamp(1.2rem, 1rem + 0.6vw, 1.6rem);
+}
+
+#results-section {
+    background: no-repeat url("assets/images/headphones_hero_2.jpg");
+    background-size: cover;
+    color: white;
+}
+.result {
+    background-color: var(--links-hover-active-bg);
 }
