@@ -51,7 +51,7 @@ section, footer {
     width: 100%;
 }
 main section, footer {
-    padding-block: clamp(4em, 5vh, 5em);
+    padding-block: clamp(4em, 7vh, 7em);
     text-align: center;
 }
 button {
@@ -140,6 +140,7 @@ h4 {
 
 .flex-item * {
     padding-block-end: 1rem;
+    gap: 1rem;
 }
 
 .flex-item p {
@@ -154,11 +155,19 @@ h4 {
 .result {
     background-color: var(--links-hover-active-bg);
     padding: 2em;
-    min-height: 15rem;
-    min-width: 15rem;
+    min-height: 20rem;
+    min-width: 20rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.result * {
+    margin-block-end: 0.5rem;
+}
+.result-number {
+    font-size: clamp(1rem, 1rem + 5vw, 5rem) !important;
+    font-weight: bold !important;
 }
