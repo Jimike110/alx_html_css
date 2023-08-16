@@ -153,4 +153,12 @@ h4 {
 }
 .result {
     background-color: var(--links-hover-active-bg);
+    padding: 2em;
+    min-height: 15rem;
+    min-width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 }
