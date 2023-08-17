@@ -238,4 +238,26 @@ footer {
     #copyright > p {
         margin: 0 auto;
     }
+    #hero-section nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em;
+    }
+    #nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        min-width: 40%;
+    }
+    #nav-links a {
+        font-size: clamp(1rem, 1rem + 3vw, 2.5rem);
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-inline-end: 1em;
+    }
+    #nav-links a:hover {
+        color: var(--links-hover-active-bg);
+    }
 }
