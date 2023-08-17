@@ -1,0 +1,194 @@
+:root {
+    --links-hover-active-bg: #ff6565;
+    --buttons-hover-active-opacity: 0.9;
+  }
+  
+  @font-face {
+    font-family: "Source Sans Pro";
+    src: url("assets/fonts/source-sans-pro/SourceSansPro-Regular.otf") format("otf");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Source Sans Pro";
+    src: url("assets/fonts/source-sans-pro/SourceSansPro-Light.otf") format("otf");
+    font-weight: 200;
+  }
+  
+  @font-face {
+    font-family: "Source Sans Pro";
+    src: url("assets/fonts/source-sans-pro/SourceSansPro-ExtraLight.otf") format("otf");
+    font-weight: lighter;
+  }
+  
+  @font-face {
+    font-family: "Source Sans Pro";
+    src: url("assets/fonts/source-sans-pro/SourceSansPro-Bold.otf") format("otf");
+    font-weight: bold;
+  }
+  
+  @font-face {
+      font-family: "Spincycle OT";
+      src: url("assets/fonts/spin-cycle-ot/spincycle_ot.otf") format("otf");
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+header, #hero, section:not(:first) *, footer * {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+section, footer {
+    padding-inline: clamp(2em, 6vw, 5em);
+    width: 100%;
+}
+main section, footer {
+    padding-block: clamp(4em, 5vh, 5em);
+    text-align: center;
+}
+button {
+    font-size: clamp(1rem, 1rem + 1vw, 2rem);
+    font-weight: bold;
+    background-color: var(--links-hover-active-bg);
+    min-width: 12em;
+    min-height: 3em;
+    color: white;
+    border-radius: 33em;
+    border: none;
+    text-transform: uppercase;
+}
+button:hover {
+    opacity: var(--buttons-hover-active-opacity);
+    cursor: pointer;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Source Sans Pro";
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+#hero-section {
+    background: no-repeat url("assets/images/headphones_hero_1.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+#hero-section nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+.logo {
+    height: auto;
+    width: max(170px, 22vw);
+}
+#nav-links {
+    display: none;
+}
+#hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-size: clamp(1rem, 1rem + 5vw, 5rem);
+}
+h2 {
+    font-size: clamp(1rem, 1rem + 3.5vw, 3.5rem);
+    margin-block: 2rem;
+}
+h4 {
+    font-size: clamp(1rem, 1rem + 2vw, 2rem);
+}
+#hero p {
+    font-size: clamp(1.5rem, 1rem + 1vw, 2rem);
+    margin-block: 2rem;
+}
+#hero-text {
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+.intro-text p {
+    font-size: clamp(1.5rem, 1rem + 1vw, 2rem);
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-block-start: 5rem;
+}
+.service {
+    min-height: 100px;
+    width: 200px;
+    padding-block-end: 2rem;
+}
+
+.flex-item * {
+    padding-block-end: 1rem;
+    gap: 1rem;
+}
+
+.flex-item p {
+    font-size: clamp(1.2rem, 1rem + 0.6vw, 1.6rem);
+}
+
+#results-section {
+    background: no-repeat url("assets/images/headphones_hero_2.jpg");
+    background-size: cover;
+    color: white;
+}
+.result {
+    background-color: var(--links-hover-active-bg);
+    padding: 2em;
+    margin-block-end: 2rem;
+    min-height: 20rem;
+    min-width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.result * {
+    margin-block-end: 0.5rem;
+}
+.result-number {
+    font-size: clamp(1rem, 1rem + 5vw, 5rem) !important;
+    font-weight: bold !important;
+}
+form {
+    width: min(500px, 85vw);
+    margin: 0 auto;
+}
+label {
+    display: block;
+    text-align: left;
+    font-size: clamp(1rem, 1rem + 0.5vw, 2rem);
+}
+input {
+    font-size: clamp(1rem, 1rem + 0.7vw, 2rem);
+    background: transparent;
+    border: none;
+    border-bottom: 0.15em solid #42424259;
+    width: 100%;
+    margin-block-end: 4rem;
+    line-height: 2em;
+    outline: none;
+}
