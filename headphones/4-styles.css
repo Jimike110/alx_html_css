@@ -55,11 +55,11 @@ main section, footer {
     text-align: center;
 }
 button {
-    font-size: clamp(1rem, 1rem + 2vw, 2rem);
+    font-size: clamp(1rem, 1rem + 1vw, 2rem);
     font-weight: bold;
     background-color: var(--links-hover-active-bg);
-    padding-inline: 1em;
-    padding-block: 0.5em;
+    min-width: 12em;
+    min-height: 3em;
     color: white;
     border-radius: 33em;
     border: none;
@@ -174,4 +174,68 @@ h4 {
 .result-number {
     font-size: clamp(1rem, 1rem + 5vw, 5rem) !important;
     font-weight: bold !important;
+}
+form {
+    width: min(500px, 85vw);
+    margin: 0 auto;
+}
+label {
+    display: block;
+    text-align: left;
+    font-size: clamp(1rem, 1rem + 0.5vw, 2rem);
+}
+input {
+    font-size: clamp(1rem, 1rem + 0.7vw, 2rem);
+    background: transparent;
+    border: none;
+    border-bottom: 0.15em solid #42424259;
+    width: 100%;
+    margin-block-end: 4rem;
+    line-height: 2em;
+    outline: none;
+}
+footer {
+    background: #071629;
+}
+#socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#socials > div {
+    background-color: white;
+    border-radius: 50%;
+    padding: 1em;
+    margin-inline: 1em;
+    margin-block-start: 3rem;
+}
+#socials > div:hover {
+    background-color: var(--links-hover-active-bg);
+}
+.footer-icon {
+    max-height: 2.5em;
+    max-width: 2.5rem;
+}
+#copyright {
+    color: white;
+    opacity: 35%;
+    font-size: clamp(1rem, 1rem + 0.5vw, 2rem);
+    margin-block-start: 2em;
+}
+@media screen and (min-width: 900px) {
+    #hero-section nav {
+        justify-content: flex-start;
+    }
+    #footer > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #socials > div {
+        margin-block-start: 0;
+    }
+    #copyright > p {
+        margin: 0 auto;
+    }
 }

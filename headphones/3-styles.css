@@ -81,6 +81,7 @@ p {
 }
 #hero-section {
     background: no-repeat url("assets/images/headphones_hero_1.jpg");
+    background-position: center;
     background-size: cover;
     min-height: 100vh;
 }
@@ -150,6 +151,7 @@ h4 {
 
 #results-section {
     background: no-repeat url("assets/images/headphones_hero_2.jpg");
+    background-position: center;
     background-size: cover;
     color: white;
 }
