@@ -126,7 +126,7 @@ h4 {
     font-size: 0.8rem;
 }
 .intro-text p {
-    font-size: clamp(1.5rem, 1rem + 1vw, 2rem);
+    font-size: clamp(1.5rem, 1rem + 1.5vw, 2rem);
 }
 .flex {
     display: flex;
@@ -160,8 +160,9 @@ h4 {
     background-color: var(--links-hover-active-bg);
     padding: 2em;
     margin-block-end: 2rem;
-    min-height: 20em;
-    min-width: 20em;
+    margin-inline: 1rem;
+    height: max(10vw, 20em);
+    width: max(10vw, 20em);
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -173,7 +174,7 @@ h4 {
     margin-block-end: 0.5rem;
 }
 .result-number {
-    font-size: clamp(1rem, 1rem + 5vw, 5rem) !important;
+    font-size: clamp(3rem, 2rem + 8vw, 5rem) !important;
     font-weight: bold !important;
 }
 form {
@@ -183,7 +184,7 @@ form {
 label {
     display: block;
     text-align: left;
-    font-size: clamp(1rem, 1rem + 0.5vw, 2rem);
+    font-size: clamp(1rem, 1rem + 1vw, 2rem);
 }
 input {
     font-size: clamp(1rem, 1rem + 0.7vw, 2rem);
@@ -284,7 +285,7 @@ footer {
     animation: wave 5s ease-in-out infinite;
     transform-origin: top;
 }
-.results * {
+.results > * {
     transition: all 0.5s ease-in-out;
 }
 .result:hover {
