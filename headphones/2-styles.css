@@ -51,7 +51,7 @@ section, footer {
     width: 100%;
 }
 main section, footer {
-    padding-block: clamp(4em, 7vh, 7em);
+    padding-block: clamp(4em, 5vh, 5em);
     text-align: center;
 }
 button {
