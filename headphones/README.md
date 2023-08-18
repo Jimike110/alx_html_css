@@ -2,7 +2,7 @@
 
 This project is part of my ALX Intro to SE curriculum, where I've implemented a fully functional web page called "Headphones" using only HTML and CSS, without relying on external libraries or frameworks. The goal of this project is to implement a web page that replicates the [design provided in Figma](https://www.figma.com/file/TwFqqWGYvNYvxZxhdWXv4H/Holberton-School---Headphone-company), showcasing my HTML, CSS, accessibility, and responsive design skills.
 
-![Headphones Website Preview](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/4a93441c93989ad7ea72.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230817%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230817T183323Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d4e0279f0dbcbc302c7fb334c4090457ffac20d5a219e33c18dd7b3c019e053e)
+![Headphones Website Preview](assets/images/project-cover.gif)
 
 ## Table of Contents
 
@@ -27,9 +27,9 @@ In this project, I've translated a designer's vision into a web page using my HT
 
 ## Screenshots
 
-![Desktop View](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/3b5a9f7948a58d58bd43.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230817%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230817T183323Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=fb7d29eab8ea8864e0fd9671e86daea812a1d4cd04e1087a560d279a77eff6e8)
+![Desktop View](assets/images/headphone-desktop.gif)
 
-![Mobile View](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/83d6311e87d4775ca4b3.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230817%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230817T183323Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0df03aec805103a2e17ba24956fbe47fdc993d00b804efc5d842868e215514d5)
+![Mobile View](assets/images/headphone-mobile.gif)
 
 ## Technologies Used
 
