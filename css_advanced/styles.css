@@ -38,9 +38,10 @@ body {
     background-size: cover;
     background-position: center;
     min-height: 150vh;
+    padding-block-end: 5rem;
 }
 header, section > * {
-    max-width: 1000px !important;
+    max-width: 1200px !important;
     margin: 0 auto !important;
 }
 header {
@@ -59,7 +60,7 @@ button {
     outline: none;
     border: none;
     padding: 1.2em 1.6em;
-    margin-block-start: 4rem;
+    margin-block-start: 4rem  !important;
     font-size: 1.4rem;
     line-height: 1.7rem;
     font-weight: 600;
@@ -148,7 +149,7 @@ span {
     justify-content: center;
     flex-direction: column;
 }
-#pros-div > div {
+#pros-div > div, #membership-items {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -209,30 +210,85 @@ blockquote {
     font-style: italic;
 
 }
-#tutorial-section {
+#videos-section, #memberships-section {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 10em 5em;
+    width: 100%;
 }
 #tutorial-section > h3 {
     color: black;
 }
-.tutorial div h4 {
-    color: var(--brand-purple);
-    font-weight: 600;
-    font-size: clamp(1.8rem, 1.8rem + 2vw, 2rem);
+#videos-section h3 {
+    color: black;
+    margin-block-end: 2rem !important;
 }
-.tutorial-img {
+.videos, #membership-items {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 5rem;
-    min-width: 25rem;
-    height: min(15rem, 30vh);
+    gap: 3rem;
+    width: 100%;
+  }
+  
+  .video-card {
+    width: 100%;
+  }
+  .video-card > div {
+    margin-block-start: 2rem;
+  }
+  .video-images {
+    position: relative;
+  }
+  
+  .video-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60px;
+    max-height: 60px;
+  }
+  
+  .video-title {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .author-div, .ratings-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .video-author {
+    max-width: 40px;
+  }
+  .video-card div:nth-of-type(2) p {
+    opacity: 50%; 
+    margin-block-start: 1rem;
+  }
+ .author-div h4, .ratings-div p {
+    color: var(--brand-purple);
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .rating {
+    max-width: 107px;
+    height: 15px;
+  }
+  #memberships-section {
+    background-color: var(--brand-black);
+    color: white;
+  }
+.membership-item {
+    text-align: center;
+    margin-block-start: 4rem;
+    width: 100%;
 }
-.one {
-    background: url("assets/images/9.png") no-repeat center;
-    background-size: cover;
-}
+#faq 
