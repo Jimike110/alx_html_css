@@ -210,7 +210,7 @@ blockquote {
     font-style: italic;
 
 }
-#videos-section, #memberships-section {
+#videos-section, #memberships-section, #faq-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -282,7 +282,7 @@ blockquote {
     max-width: 107px;
     height: 15px;
   }
-  #memberships-section {
+  #memberships-section, footer {
     background-color: var(--brand-black);
     color: white;
   }
@@ -291,4 +291,18 @@ blockquote {
     margin-block-start: 4rem;
     width: 100%;
 }
-#faq 
+#faq-header {
+    font-size: 6rem;
+    margin-block-end: 3rem !important;
+    font-weight: lighter;
+}
+#faqs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.faq {
+    width: 100%;
+}
