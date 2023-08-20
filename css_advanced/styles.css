@@ -370,5 +370,6 @@ footer {
     }
     #footer > div {
         flex-direction: row;
+        padding: 3rem 8rem;
     }
 }
