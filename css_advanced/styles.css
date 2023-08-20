@@ -80,6 +80,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 4vw;
 }
 .header-links a {
     text-decoration: none;
@@ -305,4 +306,69 @@ blockquote {
 }
 .faq {
     width: 100%;
+}
+footer {
+    background: #071629;
+    padding: 2rem 3rem;
+}
+#footer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center !important;
+    flex-wrap: wrap;
+}
+#socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#socials > div {
+    background-color: white;
+    border-radius: 50%;
+    padding: 1em;
+    margin-inline: 1em;
+    margin-block-start: 3rem;
+    cursor: pointer;
+}
+#socials > div:hover {
+    background-color: var(--links-hover-active-bg);
+}
+.footer-icon {
+    max-height: 2.5em;
+    max-width: 2.5rem;
+}
+#copyright {
+    color: white;
+    opacity: 35%;
+    font-size: clamp(1rem, 1rem + 0.5vw, 2rem);
+    margin-block-start: 2em;
+}
+#copyright > p {
+    margin: 0 auto;
+}
+@media screen and (min-width: 700px) {
+    .header-links {
+        display: flex;
+    }
+    #pros-div > div {
+        justify-content: space-between;
+        width: 80%;
+    }
+    #quote {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .video-card, .membership-item {
+        width: 23%;
+    }
+    #faqs {
+        display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 3rem;
+    }
+    #footer > div {
+        flex-direction: row;
+    }
 }
