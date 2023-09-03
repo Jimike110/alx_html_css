@@ -2,7 +2,7 @@
 
 This "CSS, advanced" project is part of my ALX Intro to SE curriculum, where I've implemented advanced styling for the "Smile School" website. The focus of this project was to apply CSS styling to the existing HTML structure, creating an appealing and responsive design based on the [provided Figma design](https://www.figma.com/file/dyYL6Ku4WG7vsdpwvlcJZC/Homepage).
 
-VIEW LIVE: [https://jimike.netlify.app/smile](https://jimike-smile-school.netlify.app/)
+VIEW LIVE: [https://jimike.netlify.app/smile](https://jimike.netlify.app/smile/)
 
 ![Smile School Website Preview](assets/images/header,%20banner.jpeg)
 
