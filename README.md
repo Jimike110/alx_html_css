@@ -1,10 +1,8 @@
 # ALX HTML and CSS Projects
 
-Welcome to the ALX HTML and CSS Projects repository! This repository contains a collection of projects completed during the ALX Introduction to Software Engineering program. These projects focus on web development, HTML, CSS, and related technologies.
+Welcome to the ALX HTML and CSS Projects repository! This repository contains a collection of HTML and CSS projects completed as part of the ALX Introduction to Software Engineering program. Each directory in this repository represents a different project, focusing on various aspects of web development, including basic and advanced HTML, CSS styling, and the use of CSS Flexbox.
 
 As an 18-year-old Nigerian male with a passion for technology and a strong belief in the power of education and community, I have embarked on this journey to master frontend development, CSS, Flexbox, and more. My goal is to become a change agent in the tech industry in Africa, building innovative and thought-provoking web applications and products.
-
-This repository contains a collection of HTML and CSS projects completed as part of the ALX Introduction to Software Engineering program. Each directory in this repository represents a different project, focusing on various aspects of web development, including basic and advanced HTML, CSS styling, and the use of CSS Flexbox.
 
 ## Table of Contents
 
