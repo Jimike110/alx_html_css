@@ -11,7 +11,6 @@ This repository contains a collection of HTML and CSS projects completed as part
 - [Introduction](#alx-html-and-css-projects)
 - [Projects](#projects)
 - [Project Descriptions](#project-descriptions)
-- [Usage](#usage)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
@@ -19,23 +18,23 @@ This repository contains a collection of HTML and CSS projects completed as part
 
 The following projects are included in this repository:
 
-1. [HTML Basic](./html_basic/README.md)
-2. [CSS Basic](./css_basic/README.md)
+1. [HTML, Basic](./html_basic/README.md)
+2. [CSS, Basic](./css_basic/README.md)
 3. [Flexbox](./flexbox/README.md)
-4. [HTML Advanced](./html_advanced/README.md)
-5. [CSS Advanced](./css_advanced/README.md)
+4. [HTML, Advanced](./html_advanced/README.md)
+5. [CSS, Advanced](./css_advanced/README.md)
 
 ## Project Descriptions
 
-- **HTML Basic**: This project covers the basics of HTML, including creating valid HTML files, using headings, paragraphs, and images. It also introduces linking between webpages.
+- **HTML, Basic**: This project covers the basics of HTML, including creating valid HTML files, using headings, paragraphs, and images. It also introduces linking between webpages.
 
-- **CSS Basic**: In this project, CSS styling is applied to HTML files, improving the visual appearance of webpages. It includes tasks related to styling, positioning, and responsive design.
+- **CSS, Basic**: In this project, CSS styling is applied to HTML files, improving the visual appearance of webpages. It includes tasks related to styling, positioning, and responsive design.
 
 - **Flexbox**: The Flexbox project dives deeper into CSS Flexbox, a powerful layout model. Tasks involve creating flexible and responsive layouts, aligning elements, and enhancing the design of webpages.
 
-- **HTML Advanced**: HTML structure for a homepage called "Smile School." The focus of this project was to create a semantically structured HTML layout for the webpage, based on the provided Figma design.
+- **HTML, Advanced**: HTML structure for a homepage called "Smile School." The focus of this project was to create a semantically structured HTML layout for the webpage, based on the provided Figma design.
 
-- **CSS Advanced**: Advanced styling for the "Smile School" website. The focus of this project was to apply CSS styling to the existing HTML structure, creating an appealing and responsive design based on the provided Figma design.
+- **CSS, Advanced**: Advanced styling for the "Smile School" website. The focus of this project was to apply CSS styling to the existing HTML structure, creating an appealing and responsive design based on the provided Figma design.
 
 ## Acknowledgments
 
