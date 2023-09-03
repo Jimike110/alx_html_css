@@ -19,7 +19,7 @@ In this task, I created a basic HTML page called `base_index.html`. Ensured that
 In this task, I copied `base_index.html` to `index.html` and added the following elements to the body:
 
 - At least 4 paragraphs.
-- Headings (titles) of levels 1, 2, and 3 using <h1>, <h2>, and <h3> tags.
+- Headings (titles) of levels 1, 2, and 3 using `<h1>`, `<h2>`, and `<h3>` tags.
 - A clickable image.
 - A link to any online URL.
 
