@@ -331,9 +331,6 @@ footer {
     margin-block-start: 3rem;
     cursor: pointer;
 }
-#socials > div:hover {
-    background-color: var(--links-hover-active-bg);
-}
 .footer-icon {
     max-height: 2.5em;
     max-width: 2.5rem;
